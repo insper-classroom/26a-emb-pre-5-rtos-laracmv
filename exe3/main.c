@@ -105,6 +105,7 @@ void btn_2_task(void *p) {
 int main() {
     stdio_init_all();
     printf("Start RTOS \n");
+    
 
     xQueueButId = xQueueCreate(32, sizeof(int));
     xQueueButId2 = xQueueCreate(32, sizeof(int));
